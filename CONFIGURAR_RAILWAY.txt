@@ -1,0 +1,32 @@
+COMO ATIVAR GROQ + OPENROUTER NO CHOOSE EVERYTHING! V4.6
+==========================================================
+
+1. Acesse https://console.groq.com/keys e gere uma chave de API.
+2. Abra o projeto no Railway > Variables e configure:
+
+   GROQ_API_KEY      = sua-chave-da-groq       (obrigatória para Groq)
+   GROQ_MODEL        = openai/gpt-oss-120b
+   OPENROUTER_API_KEY= sua-chave-da-openrouter (opcional, recomendada)
+   OPENROUTER_MODEL  = nvidia/nemotron-3-ultra-550b-a55b:free
+
+3. GEMINI_API_KEY e GEMINI_MODEL não são mais utilizados. Pode removê-los.
+4. Substitua os arquivos NA RAIZ do repositório GitHub conectado ao Railway.
+   Não envie apenas o ZIP e não coloque os arquivos dentro de uma subpasta.
+5. Faça commit e aguarde o Railway concluir o deploy.
+6. Confira https://SEU-SITE/api/health:
+   aiProvider = groq
+   aiModel = openai/gpt-oss-120b
+   aiFallbackAvailable = true (se OpenRouter também estiver configurada)
+   judgeVersion = 4.6-groq-openrouter-fallback
+7. Termine uma partida de teste; observe a narração e o resultado final.
+
+IMPORTANTE
+- Não compartilhe a chave da Groq ou OpenRouter e NÃO a publique no GitHub.
+- Groq tem um plano gratuito com limites. Consulte https://console.groq.com/settings/limits.
+- Se a Groq atingir limite (429), falhar, demorar ou enviar JSON inválido,
+  o site tenta a OpenRouter automaticamente.
+- Narrativa e julgamento são chamadas separadas e podem usar provedores diferentes.
+- Se ambos falharem, o host poderá tentar novamente. Não são inventados resultados.
+- Mantenha apenas UMA instância do servidor no Railway, pois os lobbies ficam
+  em memória do processo.
+- O ZIP não publica automaticamente no Railway.

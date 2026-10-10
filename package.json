@@ -1,0 +1,18 @@
+{
+  "name": "choose-everything-auction-v4-6-groq-fallback",
+  "version": "4.6.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/ai-fallback.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "openai": "^6.8.1"
+  }
+}

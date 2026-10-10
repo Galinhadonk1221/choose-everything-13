@@ -1,0 +1,104 @@
+[
+  {
+    "winner": "Zeno",
+    "losers": [
+      "Grand Priest",
+      "Whis",
+      "Beerus",
+      "Goku Ultra Instinct",
+      "Vegeta Ultra Ego",
+      "Gogeta Blue",
+      "Vegito Blue",
+      "Broly Full Power",
+      "Jiren Full Power",
+      "Black Frieza",
+      "Gohan Beast",
+      "Orange Piccolo",
+      "Cell Max",
+      "Majin Buu",
+      "Kid Buu",
+      "Goku Super Saiyan Blue Kaioken",
+      "Vegeta Super Saiyan Blue Evolved",
+      "Future Trunks Super Saiyan Rage",
+      "Kefla Super Saiyan 2",
+      "Hit",
+      "Toppo God of Destruction",
+      "Fused Zamasu",
+      "Goku Black Super Saiyan Rosé",
+      "Janemba",
+      "Cooler Final Form"
+    ],
+    "reason": "Regra do jogo: Zeno fica acima dos lutadores de Dragon Ball listados por causa da capacidade canônica de apagar universos/linhas do tempo. A IA não pode colocar um desses personagens acima dele em confronto direto."
+  },
+  {
+    "winner": "Grand Priest",
+    "losers": [
+      "Whis",
+      "Beerus",
+      "Goku Ultra Instinct",
+      "Vegeta Ultra Ego",
+      "Gogeta Blue",
+      "Vegito Blue",
+      "Broly Full Power",
+      "Jiren Full Power",
+      "Gohan Beast",
+      "Orange Piccolo",
+      "Cell Max",
+      "Majin Buu",
+      "Kid Buu",
+      "Goku Super Saiyan Blue Kaioken",
+      "Vegeta Super Saiyan Blue Evolved",
+      "Future Trunks Super Saiyan Rage",
+      "Kefla Super Saiyan 2",
+      "Hit",
+      "Toppo God of Destruction",
+      "Fused Zamasu",
+      "Goku Black Super Saiyan Rosé"
+    ],
+    "reason": "Regra do jogo: Grand Priest é tratado como superior aos anjos/lutadores de Dragon Ball listados, exceto Zeno."
+  },
+  {
+    "winner": "Whis",
+    "losers": [
+      "Beerus",
+      "Goku Ultra Instinct",
+      "Vegeta Ultra Ego",
+      "Broly Full Power",
+      "Jiren Full Power",
+      "Goku Super Saiyan Blue Kaioken",
+      "Vegeta Super Saiyan Blue Evolved",
+      "Future Trunks Super Saiyan Rage",
+      "Kefla Super Saiyan 2",
+      "Hit",
+      "Toppo God of Destruction",
+      "Goku Black Super Saiyan Rosé"
+    ],
+    "reason": "Regra do jogo: Whis é tratado acima de Beerus e dos mortais de Dragon Ball listados."
+  },
+  {
+    "winner": "Black Frieza",
+    "losers": [
+      "Goku Ultra Instinct",
+      "Vegeta Ultra Ego"
+    ],
+    "reason": "Regra do jogo: Black Frieza demonstrou vantagem direta sobre Goku Ultra Instinct e Vegeta Ultra Ego no mangá."
+  },
+  {
+    "winner": "Saitama",
+    "losers": [
+      "Cosmic Garou",
+      "Boros"
+    ],
+    "reason": "Regra do jogo: Saitama fica acima de Cosmic Garou e Boros com base nos confrontos canônicos."
+  },
+  {
+    "winner": "Yoriichi Tsugikuni",
+    "losers": [
+      "Muzan Kibutsuji",
+      "Kokushibo",
+      "Doma",
+      "Akaza"
+    ],
+    "reason": "Regra do jogo: Yoriichi é tratado acima dos demônios listados com base nos feitos canônicos de Demon Slayer."
+  }
+]
